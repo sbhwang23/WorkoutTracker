@@ -17,10 +17,11 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
+  useCreateIndex: true,
 }).then (() => console.log("mongod connected"))
 
-require("../routes/apiRoutes")(app);
-require("../routes/htmlRoutes")(app);
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
