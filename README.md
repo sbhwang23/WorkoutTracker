@@ -10,7 +10,7 @@
 
   ## About
   Workout Tracker is an app to view, create and track daily workouts. 
-  [Workout Tracker] (https://ancient-reaches-58722.herokuapp.com/?id=5f8b22da5c57970017bca862)
+  [Workout Tracker](https://ancient-reaches-58722.herokuapp.com/?id=5f8b22da5c57970017bca862)
 
   ## Installing
   npm install
